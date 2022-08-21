@@ -1,0 +1,35 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Aug 15, 2022, 11:08:19 AM
+    Author     : QUANGANH
+*/
+table{
+    border-spacing: 0px ;
+    border:1px solid black;   
+    border-collapse: collapse;
+    padding:20px;
+}
+th{
+    border:1px solid black;   
+    padding:0;  
+    margin:0;
+    padding-left:10px;
+    padding-right: 10px;
+    .dayOfMonth{
+    padding:0;
+    }   
+}
+td{
+    border:1px solid black;
+    padding:0;
+}
+
+/*.days{
+    border-left:1px solid black;
+    display:inline-grid;
+    font-size: 14px;
+}*/
+

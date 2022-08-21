@@ -1,0 +1,31 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Aug 15, 2022, 11:08:19 AM
+    Author     : QUANGANH
+*/
+html,body{
+    height: 600px;
+    margin:0;
+}
+.right{
+    display:inline-grid;
+    width:69%;  
+    }
+    
+
+.left{
+    padding-left: 5%;
+    display: inline-grid;
+    width:20%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+input#now{
+    text-align: right;
+    border:none;
+    font-weight: bold;
+    font-size:20px;
+}

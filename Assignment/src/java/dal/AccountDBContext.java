@@ -4,6 +4,7 @@
  */
 package dal;
 
+import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -12,6 +13,7 @@ import java.util.Calendar;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import model.Account;
+import model.TimeSheet;
 
 /**
  *
@@ -42,6 +44,9 @@ public class AccountDBContext extends DBContext {
                 a.setPassword(rs.getString(2));
                 a.setName(rs.getNString(3));
                 a.setDateOfBirth(rs.getDate(4));
+                a.setDivision(rs.getString("Division"));
+                a.setTimesheets(new ArrayList<TimeSheet>());
+                a.setAbsenceDates(new ArrayList<Date>());
                 accounts.add(a);
             }
         }catch(Exception ex){
